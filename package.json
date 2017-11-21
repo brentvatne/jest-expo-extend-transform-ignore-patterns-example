@@ -1,0 +1,20 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": ["node_modules/(?!((jest-)?react-native|react-router-native|react-clone-referenced-element|expo(nent)?|@expo(nent)?/.*|react-navigation))"]
+  },
+  "dependencies": {
+    "expo": "^23.0.0",
+    "react": "16.0.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
+    "react-router-native": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest-expo": "^23.0.0"
+  }
+}
